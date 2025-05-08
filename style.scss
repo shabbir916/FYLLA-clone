@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@mixin ligt-wieght-font{
+    font-size: 1rem;
+    opacity: 0.75;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+@mixin partation-line{
+    background-color: #191919;
+    height: 1px;
+    // margin-top: 2rem;
+}
+
+html,body{
+    min-height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 1rem;
+    background-color: #FDFBF5;
+}
+
+main{
+    padding: 1.8rem;
+    padding-top: 2rem;
+    border: 1px solid black;
+    width: 100%;
+    // background-color: rgb(65, 65, 107);
+}
+
+.View-1{
+    width: 100%;
+    // background-color: rgb(109, 59, 59);
+    p{
+        @include ligt-wieght-font;
+    }
+
+    h1{
+      width: 70%;
+    //   background-color: red;
+      font-size: 3.5rem;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      line-height: 65px;
+      margin-top: 1rem;
+      color: #191919
+    }
+
+    img{
+        width: 100%;
+        height: 30%;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        object-fit: cover;
+    }
+}
+
+.view-2{
+    margin: 2rem 0;
+    width: 100%;
+     
+   .top{
+     width: 100%;
+
+       p{
+        @include ligt-wieght-font;
+       }
+
+       h1{
+        width: 100%;
+        font-size: 2.5rem;
+        font-weight: 500;
+        // letter-spacing: 1.5px;
+        color: #191919;
+        margin-top: 1rem;
+        
+       }
+
+       button{
+          padding: 0.6rem 1.4rem;
+          border-radius: 0.5em;
+          border: none;
+          background-color: #191919;
+          color: #FDFBF5;
+          margin-top: 2rem;
+          font-size: 1rem;
+          font-weight: 500;
+          letter-spacing: 1px;
+          margin-bottom: 2rem;
+       }
+    }
+
+    .line{
+      @include partation-line();  
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+
+        .elem{
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+
+          svg{
+            width: 4rem;
+            aspect-ratio: 1 / 1;
+          }
+
+          h1{
+            letter-spacing: 1px;
+            font-size: 2.5rem;
+            font-weight: 400;
+          }
+
+          p{
+            line-height: 25px;
+            font-size: 1rem;
+            opacity: 0.75;
+          }
+
+          .line{
+            @include partation-line();  
+          }
+
+        }
+    }
+
+
+    
+}
+
+.view-3{
+  width: 100%;
+  margin-top: 2rem;
+  // position: relative;
+  
+  // .section-start-line{
+  //   background-color: #191919;
+  //   height: 1px;
+  //   display: none;
+  // }
+
+  .about-our-team{
+    width: 100%;
+    margin-bottom: 2rem;
+    // position: sticky;
+    // top: 0;
+    
+    h1{
+      font-weight: 400;
+      font-size: 2.5rem;
+      width: 35%;
+      text-transform: uppercase;
+      line-height: 50px;
+    }
+
+    p{
+      font-size: 1.15rem;
+      color: rgb(25, 25, 25);
+      margin-top: 0.6rem;
+    }
+  }
+
+  .line{
+    background-color: #191919;
+    height: 1px;
+    margin-top: 2rem; 
+  }
+
+  .team-members{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+
+    .team-list{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+
+      .member-name{
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+
+      .member-role{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #242422;
+      }
+    }
+  }
+  
+}
+
+
+
+.view-4{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .line{
+    @include partation-line(); 
+    margin-top: 2rem; 
+  }
+
+  .top{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    
+    svg{
+      width: 4rem;
+      aspect-ratio: 1 / 1;
+    }
+
+    h3{
+      line-height: 1px;
+      font-size: 1rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px ;
+    }
+
+    p{
+      font-size: 3rem;
+      text-transform: uppercase;
+      font-weight: 500;
+
+      br{
+        display: none;
+      }
+    }
+  }
+
+  .bottom{
+
+    p{
+      font-size: 1.2rem;
+      line-height: 30px;
+      font-weight: 400;
+      width: 100%;
+      // letter-spacing: 1px;
+    }
+    button{
+      padding: 0.6rem 1.4rem;
+      border-radius: 0.5em;
+      border: none;
+      background-color: #191919;
+      color: #FDFBF5;
+      margin-top: 2rem;
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+   }
+  }
+
+  
+}
+
+
+
+.view-5{
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .line{
+    @include partation-line();
+  }
+
+
+
+  .top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    .branding{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+  
+      .brand-logo{
+        svg{
+          width: 4rem;
+          aspect-ratio: 1 / 1;
+        }
+      }
+  
+      .brand-name{
+        h1{
+          font-size: 1.5rem;
+          font-weight:400;
+          letter-spacing: 1px;
+        }
+      }
+    }
+     
+    .Adress{
+      margin-top: 1.5rem;
+  
+      p{
+        font-size: 1.1rem;
+        color: rgb(25, 25, 25);
+      }
+    }
+  
+    .Social-Media-handels{
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+  
+      p{
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 0.4rem 0.6rem;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+  .bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .pages{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      h1{
+        font-size: 1.8rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+
+      .pages-links{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        a{
+          text-decoration: none;
+          color: #191919;
+          font-weight: 500;
+          font-size: 1rem;
+          letter-spacing: 1px;
+        }
+      }
+
+      button{
+        padding: 0.6rem 1.4rem;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #191919;
+        color: #FDFBF5;
+        // margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        width: fit-content;
+     }
+    }
+
+    .CMS{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      h1{
+        font-size: 1.8rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+
+      .cms-links{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        a{
+          text-decoration: none;
+          color: #191919;
+          font-weight: 500;
+          font-size: 1rem;
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    .Utility-pages{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      h1{
+        font-size: 1.8rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+
+      .utility-links{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        a{
+          text-decoration: none;
+          color: #191919;
+          font-weight: 500;
+          font-size: 1rem;
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    :nth-child(6){
+      display: none;
+    }
+  }
+
+
+  
+}
+
+.footer{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  p{
+    letter-spacing: 1px;
+  }
+
+  .footer-links{
+    display: flex;
+    gap: 2rem;
+
+    a{
+      text-decoration: none;
+      color: #191919;
+      font-weight: 500;
+      font-size: 1rem;
+      letter-spacing: 1px;  
+    }
+  }
+}
+
+
+
+@media (min-width:1020px) {
+  main{
+    padding: 3rem;
+  }
+
+  .View-1{
+    h1{
+        width: 100%;
+        font-size: 5.5rem;
+        line-height: 105px;
+        font-weight: 400;
+      }
+
+      img{
+        margin-top: 3rem;
+      }
+  }
+
+  .view-2{
+    display: flex;
+    margin-top: 3rem;
+    // margin-bottom: 2rem;
+
+    .line{
+      height: initial;
+      width: 2px;
+      // margin-left: 1rem;
+    }
+
+    .top{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    
+      
+      h1{
+        font-size: 4.5rem;
+        margin-right: 2rem;
+        width: 95%;
+        // background-color: red;
+      }
+
+      button{
+        // margin-top: 50rem;
+        width: fit-content;
+        margin-bottom: -1rem;
+        // align-content: end;
+      }
+    }
+
+    .bottom{
+      width: 30%;
+      margin-left: 3rem;
+      margin-top: auto;
+
+      .line{
+        height: 1px;
+        width: 100%;
+      }
+
+      .elem{
+
+        svg{
+          width: 3.5rem;
+          aspect-ratio: 1 / 1;
+        }
+      }
+    }
+  }
+
+  .view-3{
+    // margin-top: 6rem;
+    display: flex;
+
+    .about-our-team{
+      width: 45%;
+      // background-color: #242422;
+
+      h1{
+        font-size: 3.5rem;
+        line-height: 60px;
+      }
+
+      p{
+        font-size: 1.3rem;
+        // width: 43%;
+      } 
+    }
+
+    .line{
+      height: initial;
+      width: 2px;
+      margin-left: 2rem;
+      // margin-left: 1rem;
+    }
+
+    .team-members{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin-left: 2rem;
+    }
+  }
+
+  .view-4{
+    height: 100vh;
+    flex-direction: row;
+    margin-top: 5rem;
+
+    .line{
+      height: 100%;
+      width: 2px;
+      margin-left: 1rem;
+      margin-top: -1rem;
+    }
+
+    .top{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      gap: 1rem;
+
+      
+      p{
+        font-size:4.5rem; 
+
+        br{
+          display: block;
+        }
+      }
+
+      svg{
+        position: absolute;
+        bottom: 0;
+      }
+      
+    }
+
+    .bottom{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: -1rem;
+      margin-left: 2rem;
+
+      p{
+        font-size:1.4rem;
+        line-height: 35px;
+      }
+
+      button{
+        width: fit-content;
+        align-content: end;
+        margin-top: 2rem;
+        
+      }
+    }
+  }
+
+  .view-5{
+    // display: flex;
+    flex-direction: row;
+    // justify-content: space-around;
+
+    .top{
+      width: 45%;
+      // background-color: red;
+    }
+
+    .bottom{
+      display: flex;
+      flex-direction: row;
+      gap: 7rem;
+
+      .pages{
+
+        h1{
+          font-size: 1.3rem;
+        }
+
+        .pages-links a{
+          font-size: 0.9rem;
+        }
+      }
+
+      .CMS{
+        h1{
+          font-size: 1.3rem;
+        }
+
+        .cms-links a{
+          font-size: 0.9rem;
+        }
+      }
+
+      .Utility-pages{
+        h1{
+          font-size: 1.3rem;
+        }
+
+        .utility-links a{
+          font-size: 0.9rem;
+        }
+      }
+
+      .line{
+        display: none;
+      }
+
+      :nth-child(5){
+        margin-left: 5rem;
+      }
+    }
+
+    .line{
+      height: initial;
+      width: 2px;
+    }
+  }
+   
+  .footer{
+    // display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    p{
+      font-size: 0.85rem;
+    }
+
+    .footer-links a{
+      font-size: 0.85rem;
+    }
+  }
+
+}
+
