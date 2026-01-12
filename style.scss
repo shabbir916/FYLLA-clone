@@ -61,6 +61,10 @@ body.dark {
   }
 }
 
+body.dark nav .right .hamburger {
+  color: #fff !important;
+}
+
 body.dark h1,
 body.dark h2,
 body.dark h3,
@@ -276,6 +280,7 @@ nav {
 
     .hamburger {
       display: none;
+      color: #111 !important;
     }
   }
 }

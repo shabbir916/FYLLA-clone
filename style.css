@@ -30,15 +30,15 @@ body.dark .toggle-circle {
   transform: translateX(30px);
 }
 
-body.dark .toggleIcon{
-  color: red !important;
-}
-
 body.dark .nav-links {
   background-color: #111 !important;
 }
 
 body.dark .nav-links a {
+  color: #fff !important;
+}
+
+body.dark nav .right .hamburger {
   color: #fff !important;
 }
 
@@ -240,6 +240,7 @@ nav .right .toggle-circle {
 
 nav .right .hamburger {
   display: none;
+  color: #111 !important;
 }
 
 body.dark .section-partation-line {
