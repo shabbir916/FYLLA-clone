@@ -992,3 +992,15 @@ body.dark .section-partation-line {
     }
   }
 }
+
+body.dark {
+  // ...existing code...
+
+  .nav-links {
+    background-color: #111 !important;
+
+    a {
+      color: #fff !important;
+    }
+  }
+}

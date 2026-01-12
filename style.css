@@ -836,4 +836,12 @@ body.dark .section-partation-line {
   .footer .footer-links a {
     font-size: 0.85rem;
   }
-} /*# sourceMappingURL=style.css.map */
+}
+
+body.dark .nav-links {
+  background-color: #111 !important;
+}
+
+body.dark .nav-links a {
+  color: #fff !important;
+}
