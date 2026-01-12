@@ -99,7 +99,7 @@ body.dark button {
   color: #111 !important;
 }
 
-body.dark .logo img{
+body.dark .logo img {
   fill: white !important;
   stroke: white !important;
   color: white !important;
@@ -184,8 +184,8 @@ nav {
     }
 
     .lets-talk-btn {
-      background-color: #111; 
-      color: #fff; 
+      background-color: #111;
+      color: #fff;
       border: none;
       padding: 10px 20px;
       border-radius: 6px;
@@ -193,26 +193,26 @@ nav {
       font-size: 1rem;
       letter-spacing: 2px;
       cursor: pointer;
-      transition: all 0.3s ease; 
+      transition: all 0.3s ease;
     }
 
     .lets-talk-btn:hover {
-      background-color: #fff; 
-      color: #111; 
-      border: 1px solid #111; 
-      transform: scale(1.05); 
+      background-color: #fff;
+      color: #111;
+      border: 1px solid #111;
+      transform: scale(1.05);
     }
 
     .nav-separator {
-      height: 30px; 
-      width: 1px; 
-      background-color: #000; 
-      margin: 0 15px; 
+      height: 30px;
+      width: 1px;
+      background-color: #000;
+      margin: 0 15px;
     }
 
     .socials {
       display: flex;
-      gap: 10px; 
+      gap: 10px;
       align-items: center;
 
       a {
@@ -235,7 +235,6 @@ nav {
         color: #fff;
       }
     }
-
 
     .theme-toggle {
       height: 30px;
@@ -835,13 +834,36 @@ body.dark .section-partation-line {
   }
 
   .view-5 {
-    // display: flex;
     flex-direction: row;
-    // justify-content: space-around;
 
     .top {
       width: 45%;
-      // background-color: red;
+
+      .socials {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          color: #191919;
+          width: 40px;
+          height: 40px;
+          border: 1px solid #191919;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: monospace;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+          background-color: #000;
+          color: #fff;
+        }
+      }
     }
 
     .bottom {
@@ -908,4 +930,3 @@ body.dark .section-partation-line {
     }
   }
 }
-
