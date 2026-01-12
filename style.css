@@ -31,7 +31,7 @@ body.dark .toggle-circle {
 }
 
 body.dark .toggleIcon{
-  color: #fff !important;
+  color: red !important;
 }
 
 body.dark .nav-links {
