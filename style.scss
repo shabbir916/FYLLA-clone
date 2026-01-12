@@ -279,7 +279,6 @@ nav {
 
     .hamburger {
       display: none;
-      color: #111 !important;
     }
   }
 }
@@ -742,7 +741,7 @@ body.dark .section-partation-line {
         span {
           height: 3px;
           width: 100%;
-          background-color: #191919 !important;
+          background-color: red !important;
           border-radius: 2px;
           transition: all 0.3s ease;
         }
