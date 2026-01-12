@@ -46,12 +46,11 @@ body.dark .toggle-circle {
   transform: translateX(30px);
 }
 
-body.dark .toggleIcon{
+body.dark .toggleIcon {
   color: red !important;
 }
 
 body.dark {
-
   .nav-links {
     background-color: #111 !important;
 
@@ -743,7 +742,7 @@ body.dark .section-partation-line {
         span {
           height: 3px;
           width: 100%;
-          background-color: #191919;
+          background-color: #191919 !important;
           border-radius: 2px;
           transition: all 0.3s ease;
         }
@@ -1011,5 +1010,3 @@ body.dark .section-partation-line {
     }
   }
 }
-
-
