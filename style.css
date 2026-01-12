@@ -30,6 +30,14 @@ body.dark .toggle-circle {
   transform: translateX(30px);
 }
 
+body.dark .nav-links {
+  background-color: #111 !important;
+}
+
+body.dark .nav-links a {
+  color: #fff !important;
+}
+
 body.dark h1,
 body.dark h2,
 body.dark h3,
@@ -838,10 +846,4 @@ body.dark .section-partation-line {
   }
 }
 
-body.dark .nav-links {
-  background-color: #111 !important;
-}
 
-body.dark .nav-links a {
-  color: #fff !important;
-}
