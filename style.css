@@ -226,6 +226,10 @@ nav .right .toggle-circle {
   transition: all 0.3s ease;
 }
 
+nav .right .hamburger {
+  display: none;
+}
+
 body.dark .section-partation-line {
   background-color: white !important;
 }
@@ -668,7 +672,6 @@ body.dark .section-partation-line {
     padding: 3rem;
   }
   
-
   .View-1 h1 {
     width: 100%;
     font-size: 5.5rem;
