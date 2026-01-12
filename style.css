@@ -659,7 +659,7 @@ body.dark .section-partation-line {
         span {
           height: 3px;
           width: 100%;
-          background-color: #191919;
+          background-color: #fff;
           border-radius: 2px;
           transition: all 0.3s ease;
         }
